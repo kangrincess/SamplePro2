@@ -27,6 +27,7 @@ public class FirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("First Servlet 실행");
+		System.out.println("팀장이 추가했다-!");
 	}
 
 	/**
